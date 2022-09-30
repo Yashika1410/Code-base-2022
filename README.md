@@ -19,7 +19,7 @@ Hacktoberfest
 
 ### Step#3: [Fork](https://github.com/Yashika1410/HacktoberFest-2022/fork) and clone the repository.
 
-### Step#4: Send in your valuable projects/code to this repository in order to complete it. Please make sure you are making a valid contribution to the open source.
+### Step#4: Send in your valuable projects/code to this repository in order to complete it. Please make sure you are making a valid contribution to the open source.(You can refer [project list](project_list.md) for ideas)
        
 ### Step#5: Add your files `git add -A`
 
