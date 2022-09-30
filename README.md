@@ -17,7 +17,7 @@ Hacktoberfest
 <br>
 (Follow me on github - this motivates me to review & merge pull requests quicker.) 
 
-### Step#3: [Fork](https://github.com/Yashika1410/HacktoberFest/fork) and clone the repository.
+### Step#3: [Fork](https://github.com/Yashika1410/HacktoberFest-2022/fork) and clone the repository.
 
 ### Step#4: Send in your valuable projects/code to this repository in order to complete it. Please make sure you are making a valid contribution to the open source.
        
@@ -25,7 +25,7 @@ Hacktoberfest
 
 ### Step#6 Commit your changes `git commit -m  "commit message here"`
 
-### Step#7: Push to your fork `git push` and [submit a pull request](https://github.com/Yashika1410/HacktoberFest/compare).
+### Step#7: Push to your fork `git push` and [submit a pull request](https://github.com/Yashika1410/HacktoberFest-2022/compare).
                  
 ### Step#8: Pat your self on the back and wait for your pull request to be reviewed and merged.
 
