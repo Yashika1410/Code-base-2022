@@ -1,6 +1,6 @@
 # list of projects you can contribute:-
 
-* Result  manangment System(Full stack web app / Just UI/ Rest apis using any stack)
+* Result  management System(Full stack web app / Just UI/ Rest apis using any stack)
 Hints:-
     * Teacher portal to perform CURD operations on result
     * Student portal to view his/her result

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Managment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Result Managment API</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <br>
+<div  class="container">
+<div align="center">
+
+    <h1> Result Managment System</h1>
+    <p> This is a basic Rest Api Build using Go Lang. To perform CRUD operations on sqlite Database.</p>
+    <p>Aim: To build a rest api throgh which students can find there own result and only teachers can perform crud
+        operations on the result db.</p>
+
+</div>
+
+
+
+<h2 id="features">Features</h2>
+<blockquote>
+    <p>Authentication</p>
+    <p>CRUD Operations on Result</p>
+    <p>Search Student Result</p>
+    <p>Users(Student &amp; Teacher)</p>
+</blockquote>
+<h2 id="packages">Packages</h2>
+<blockquote>
+    <p>Jwt-Go : github.com/dgrijalva/jwt-go</p>
+    <p>Gorilla Mux: github.com/gorilla/mux</p>
+    <p>Sql Lite: github.com/mattn/go-sqlite3</p>
+</blockquote>
+<h2 id="how-to-use-it-">How to Use It?</h2>
+<p>This project behave differet according to different user so here we have two users follow given below steps for each
+    one</p>
+<ul class="list-unstyled">
+    <li>
+        <h3 id="student">Student</h3>
+        For finding student result we have to make a POST request on the given below link and pass student name and roll
+        no in body with it.<blockquote>
+            <p>localhost:3000/student/result</p>
+        </blockquote>
+    </li>
+    <li>
+        <h3 id="teacher">Teacher</h3>
+        <p> So as we know that Teacher user kind of super user in this project so now let&#39;s see how we can use this
+            project as a teacher.</p>
+        <ul>
+            <li>Teacher Authentication
+                To do that we have to make a POST request on <code>localhost:3000/teacher/login</code> and passing email
+                and password of teacher through body. If teacher is successfuly authenticated then he/she will get a
+                auth token save it.</li>
+            <li>Add Result
+                To do that we have to make a POST request on <code>localhost:3000/addresult</code> and passing details
+                of result through body and also passing token through header.</li>
+            <li>Get Results
+                To do that we have to make a GET request on <code>localhost:3000/results</code> and passing token
+                through header.</li>
+            <li>Get Result
+                To do that we have to make a GET request on <code>localhost:3000/result/{id}</code> and passing token
+                through header. </li>
+            <li>Update Result
+                To do that we have to make a PUT request on <code>localhost:3000/addresult</code> and passing details of
+                edited result through body and also passing token through header.</li>
+            <li>Delete Result
+                To do that we have to make a Delete request on <code>localhost:3000/result/{id}</code> and passing token
+                through header.</li>
+        </ul>
+    </li>
+</ul>
+</div>
+</body>
+</html>
