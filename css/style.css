@@ -14,8 +14,8 @@ body{
 header{
     width: 100%;
     height: 100vh;
-    position: relative;
-    overflow: hidden;
+    position:relative;
+    overflow:hidden;
 }
 
 header:after{
@@ -33,10 +33,13 @@ header:after{
     margin-left: 12px !important;
     margin-right: 12px !important;
     font-size: 20px;
+    box-shadow: inset 0px 3px 10px grey,1px 0px 3px #bd8cbf;
+    padding:2px;
+    border-radius:10px;
 }
 
 .ml-auto .rang{
-    color: #007aff !important;
+    color: #007aff!important;
 }
 
 .ml-auto a{
@@ -45,7 +48,8 @@ header:after{
 
 .ml-auto a:hover{
     color: #007aff !important;
-    background: white;
+    box-shadow:0px 3px 10px #bd8cbf,1px 0px 3px white;
+    border-radius:10px;
 }
 
 .bt{
@@ -55,9 +59,9 @@ header:after{
     font-size: 35px;
     background: transparent;
     text-decoration: none;
+    border:1px solid white;
+    box-shadow:0px 0px 12px grey;	
     display: inline-block;
-    border: 1px solid;
-    border-color: white;
     transition: all 2s;
     cursor: pointer;
     color: white;
@@ -101,6 +105,8 @@ header:after{
 .bt:hover{
     background-color: black;
     color: white;
+    box-shadow:0px 0px 12px #bd8cbf;
+    border:1px solid black;
 }
 
 nav{
@@ -163,7 +169,11 @@ nav{
     background: black !important;
     color: white !important;
 }
-
+.card-body a:hover{
+    text-decoration:none;
+    text-transform:uppercase;
+    text-shadow:0px 0px 6px blue;
+}
 .btn-mdb-color{
     color: black !important;
     background: white !important;
