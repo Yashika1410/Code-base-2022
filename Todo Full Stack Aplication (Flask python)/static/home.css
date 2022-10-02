@@ -1,0 +1,61 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 2em;
+}
+.form {
+    margin-top: 20px;
+}
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* bootstrap modifications */
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.extra-bottom {
+    padding-bottom: 2em;
+}
+
+.task {
+    width: 50%;
+}
+
+.task-id {
+    width: 10%;
+}
+.added{
+    width: 25%;
+}
+.status {
+    width: 20%;
+}
+
+.update {
+    width: 10%;
+}
