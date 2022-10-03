@@ -17,7 +17,7 @@ const TodoItem = (props) => {
               xmlns="http://www.w3.org/2000/svg"
               width="19"
               height="19"
-              fill="currentColor"
+              fill="orange"
               class="bi bi-check-circle-fill"
               viewBox="0 0 16 16"
             >

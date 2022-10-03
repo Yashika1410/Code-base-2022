@@ -9,10 +9,12 @@ const TodoInput = (props) => {
   };
   return (
     <div className={`row ${styles.body}`}>
+      <h1>Task Management Application</h1>
       <input
         className={`col-8 ${styles.input}`}
         type="text"
         ref={newTodoRef}
+        placeholder="Enter your task . . ."
       ></input>
       <button className={`col-3 ${styles.btn}`} onClick={submitHandler}>
         Add

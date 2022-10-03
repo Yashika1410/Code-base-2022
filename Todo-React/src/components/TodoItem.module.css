@@ -1,16 +1,22 @@
 .body{
     padding: 10px;
-    font-size: 20px;
-    border:grey solid 1px; 
+    font-size: 1rem;
     border-radius: 10px;
-    margin: 5px;
-    background-color:  #FBFFE2;
+    background-color:  #f7e5e5;
+    padding-right: 25px;
+
+    font-weight: 500;
+    color: #333;
+
+    margin-bottom: 5px;
 }
+
 .done{
     border:none;
     background:none;
     color:green;
 }
+
 .notdone{
     border:none;
     background:none;
