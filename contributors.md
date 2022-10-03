@@ -3,4 +3,7 @@
 * [Sumit Kumar](https://github.com/sumitkr2000)
 * [Muhammed Shiyadh](https://github.com/Shiyadh123)
 * [Kevin Juan Jacque Castillo](https://github.com/kevinjuanjacque)
+* [Korak Sengupta](https://github.com/Korak-Sengupta)
+* [Bagus](https://github.com/Bagusin)
+
 
