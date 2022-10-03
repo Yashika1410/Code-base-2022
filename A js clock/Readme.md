@@ -6,7 +6,7 @@ A simple javaScript clock which reads current time.
 
 The screenshot of the landing page which reads current time.
 
-![](<Images/2022-10-03%20(8).png>)
+![](<Images/clock(2).png>)
 
 ## Tech Stack Used
 

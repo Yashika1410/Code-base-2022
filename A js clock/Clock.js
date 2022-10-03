@@ -16,7 +16,7 @@ function realTime(){
     minute=(minute<10)? "0"+ minute:minute;
     second=(second<10)? "0"+second: second;
 
-    var time= hour+ ":"+ minute+":"+ second+ " "+ session;
+    var time= hour+ ":"+ minute+":"+ second+ ""+ session;
 
     document.getElementById("clock").innerText=time;
 
