@@ -7,4 +7,5 @@
 * [kaustubh Patil](https://github.com/pkaustubh401)
 * [Bagus](https://github.com/Bagusin)
 * [Bikas Kumar Behera](https://github.com/Bikaskumar572)
+* [Sudhanshu Nigam](https://github.com/confusedgenius)
 
