@@ -15,3 +15,4 @@
 - [Surbhi Kumari](https://github.com/surbhi400)
 - [Subhojeet Das](https://github.com/SubhojeetDas1107)
 - [Hardik Agarwal](https://github.com/Harry-dotc)
+- [Ayush Kumar Pandit](https://github.com/Ayushpanditmoto)
