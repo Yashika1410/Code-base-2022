@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #36524F;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+.container{
+    width: 550px;
+    height: 350px;
+    background-color: #070707;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input#amount{
+    width: 180px;
+    height: 38px;
+    border-radius: 9px;
+    background-color: #161817;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+::placeholder{
+    color: #5FD8C8;
+    font-size: 14px;
+}
+.current-currency-details{
+    margin-bottom: 25px;
+}
+.converter{
+    position: relative;
+    top: 45px;
+}
+select{
+    width: 180px;
+    height: 38px;
+    border-radius: 9px;
+    background-color: #161817;
+    border: none;
+    color: #5FD8C8;
+    padding-left: 10px;
+    position: relative;
+    left: 15px;
+}
+button{
+    width: 385px;
+    position: relative;
+    left: 6px;
+    height: 46px;
+    border-radius: 9px;
+    background-color: #5FD8C8;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+input{
+    color:white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#final-amount{
+    width: 180px;
+    height: 38px;
+    border-radius: 9px;
+    background-color: #161817;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
