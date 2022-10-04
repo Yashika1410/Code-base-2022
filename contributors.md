@@ -9,6 +9,7 @@
 * [Shiwangi Kumari](https://github.com/sshiwangi)
 * [Bikas Kumar Behera](https://github.com/Bikaskumar572)
 * [Sudhanshu Nigam](https://github.com/confusedgenius)
+* [Dishank Kumar Yadav](https://github.com/dishankkumaryadav)
 * [Shivanshi Saxena](https://github.com/shivanshi-s)
 * [Viraj Jadhav](https://github.com/Virajj28)
 * [Surbhi Kumari](https://github.com/surbhi400)
