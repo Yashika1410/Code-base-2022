@@ -1,0 +1,44 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-image: url(Images/beautiful-tropical-beach-sea-ocean-with-white-cloud-blue-sky-background-travel-vacation-trip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 65px;
+    font-family:cursive;
+    position: relative;
+    margin-top: 250px;
+ 
+   
+}
+
+
+@media(min-width: 50px) and (max-width:135px) {
+    #clock{
+        font-size: 10px;
+    }
+}
+@media(min-width: 135px) and (max-width:252px) {
+    #clock{
+        font-size: 20px;
+    }
+}
+@media(min-width: 252px) and (max-width:415px){
+    #clock{
+        font-size: 42px;
+    }
+}
+
