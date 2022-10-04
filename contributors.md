@@ -8,3 +8,4 @@
 * [Bagus](https://github.com/Bagusin)
 * [Bikas Kumar Behera](https://github.com/Bikaskumar572)
 * [Shivanshi Saxena](https://github.com/shivanshi-s)
+* [Viraj Jadhav](https://github.com/Virajj28)
