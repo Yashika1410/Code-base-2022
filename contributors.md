@@ -10,4 +10,6 @@
 * [Bikas Kumar Behera](https://github.com/Bikaskumar572)
 * [Shivanshi Saxena](https://github.com/shivanshi-s)
 * [Viraj Jadhav](https://github.com/Virajj28)
+* [Surbhi Kumari](https://github.com/surbhi400)
+
 
