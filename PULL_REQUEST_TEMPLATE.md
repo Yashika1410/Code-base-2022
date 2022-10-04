@@ -2,7 +2,7 @@
 
 ## Issue ticket number and link 🔗
 
-## Type(s) of change
+## Type of change(s)
 
 - [ ] Bug fix 🐛
 - [ ] New feature ✨
