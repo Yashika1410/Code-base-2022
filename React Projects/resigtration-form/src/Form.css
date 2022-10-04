@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(90deg, #efedfa 0%, #efedfa 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  margin: 40px auto;
+  width: 1060px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 50px;
+  height: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-content-left {
+  background-color: rgb(247, 247, 247);
+  border-radius: 35px 0 0 35px;
+  position: relative;
+}
+
+.form-img {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-img1 {
+  width: 80%;
+  height: 15%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-img-2 {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-success {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 130px;
+  color: #fff;
+}
+
+.form-content-right {
+  border-radius: 0 35px 35px 0;
+  position: relative;
+  background-color: #6e65e8;
+}
+
+.form {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inputs {
+  margin-bottom: 1.5rem;
+  width: 90%;
+}
+
+.form-inputs p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #c40101;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.form-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  font-size: large;
+  font-weight: 550;
+}
+
+.form-input::placeholder {
+  color: #020202;
+  font-size: 15px;
+}
+
+.form-input-btn {
+  width: 50%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #544dbc;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background-color: #635bd2;
+  transition: all 0.4s ease-out;
+}
