@@ -6,6 +6,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 2em;
+   
 }
 .form {
     margin-top: 20px;
