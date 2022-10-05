@@ -1,7 +1,35 @@
-# HacktoberFest
-Hacktoberfest
+# HacktoberFest-2022
+Hacktoberfest 2022
 
 <img alt="HF2022" src="img/hacktober.png">
+<br>
+
+<div align="center">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Yashika1410/Hacktoberfest-2022?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+</div>
+<table align="center">
+    <thead align="center">
+        <tr border: 1px;>
+            <td><b>Project Stats</td>
+            <td><b>🌟 Stars</b></td>
+            <td><b>🍴 Forks</b></td>
+            <td><b>🐛 Issues</b></td>
+            <td><b>🔔 Open PRs</b></td>
+            <td><b>🔕 Close PRs</b></td>
+        </tr>
+     </thead>
+    <tbody>
+         <tr>
+            <td><a href="https://github.com/Yashika1410/Hacktoberfest-2022"</a>Project</td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/Yashika1410/Hacktoberfest-2022?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/Yashika1410/Hacktoberfest-2022?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/Yashika1410/Hacktoberfest-2022?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Yashika1410/Hacktoberfest-2022?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Yashika1410/Hacktoberfest-2022?style=flat&color=critical&logo=github"/></td>
+        </tr>
+    </tbody>
+</table>
 
 ### :octocat: Open your first pull request for the Hacktoberfest 2022 challenge.
 
