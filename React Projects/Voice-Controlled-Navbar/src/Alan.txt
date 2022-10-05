@@ -1,0 +1,19 @@
+intent('(Navigate|Go|Move) to Home', p => {
+    p.play("Navigating to Home.");
+    p.play({ command: 'home' });
+});
+
+intent('(Navigate|Go|Move) to About', p => {
+    p.play("Navigating to About.");
+    p.play({ command: 'about' });
+});
+
+intent('(Navigate|Go|Move) to Contact', p => {
+    p.play("Navigating to Contact.");
+    p.play({ command: 'contact' });
+});
+
+intent('(Navigate|Go|Move) to Experience', p => {
+    p.play("Navigating to Experience.");
+    p.play({ command: 'experience' });
+});
