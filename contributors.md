@@ -18,3 +18,6 @@
 - [Ayush Kumar Pandit](https://github.com/Ayushpanditmoto)
 - [Atanu Nayak](https://github.com/Nayaker)
 - [Rahul Kumar](https://github.com/iamrahul8)
+- [Ritish Bhardwaj](https://github.com/ritishbhardwaj)
+- [Kartik Mehta](https://github.com/kartikmehta8)
+
