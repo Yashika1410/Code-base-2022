@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h1{
+            color: burlywood;
+        }
+        .container{
+            padding: 100px;
+        }
+    </style>
+</head>
+{%extends 'testapp/base.html'%}
+        {%block body_block%}
+           <div class="container" align='center'>
+            <h1>Login to write Exams....</h1>
+            <form  method="post">
+                {{form.as_p}}
+                {%csrf_token%}
+                <button type="submit" name="login">Login</button>
+            </form>
+           </div>
+        {%endblock%}

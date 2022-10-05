@@ -18,3 +18,9 @@
 - [Ayush Kumar Pandit](https://github.com/Ayushpanditmoto)
 - [Atanu Nayak](https://github.com/Nayaker)
 - [Arpit Soni](https://github.com/SoniArpit)
+- [Avijit Sen](https://github.com/ashavijit)
+- [A Bhumika Rao](https://github.com/bhumirao)
+- [Rahul Kumar](https://github.com/iamrahul8)
+- [Ritish Bhardwaj](https://github.com/ritishbhardwaj)
+- [Kartik Mehta](https://github.com/kartikmehta8)
+
