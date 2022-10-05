@@ -17,9 +17,9 @@
 - [Hardik Agarwal](https://github.com/Harry-dotc)
 - [Ayush Kumar Pandit](https://github.com/Ayushpanditmoto)
 - [Atanu Nayak](https://github.com/Nayaker)
+- [Avijit Sen](https://github.com/ashavijit)
 - [A Bhumika Rao](https://github.com/bhumirao)
 - [Rahul Kumar](https://github.com/iamrahul8)
 - [Ritish Bhardwaj](https://github.com/ritishbhardwaj)
 - [Kartik Mehta](https://github.com/kartikmehta8)
-
 
