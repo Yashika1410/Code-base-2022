@@ -17,3 +17,4 @@
 - [Hardik Agarwal](https://github.com/Harry-dotc)
 - [Ayush Kumar Pandit](https://github.com/Ayushpanditmoto)
 - [Atanu Nayak](https://github.com/Nayaker)
+- [Ifeoluwa Oludare](https://github.com/ifeoluwah21)
