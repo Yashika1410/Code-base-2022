@@ -48,6 +48,7 @@ Hints:-
 * Desktop Notifier App:- Notify about covid count or anything usefull.
 * Currency Converter 
 * Simple ATM Simulator
+* Image cropper with compressor
 
 
 If you have any ideas in mind please add it here so that beginners will be benefited.
