@@ -1,0 +1,115 @@
+body{
+    background: url('../bg1.jpg')no-repeat center center/cover;
+}
+.container
+{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 130px;
+    left: 260px;
+}
+#box1{
+    /* border-right: 2px solid red; */
+    width: 500px;
+    background: url('../bg.jpg')no-repeat center center/cover;
+}
+#box2{
+    background: rgba(240, 240, 240, 0.699);
+    width: 500px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+#btn{
+    border: 3px solid blueviolet;
+    background-color: rgb(64, 133, 224);
+    border-radius: 20px;
+    width: 40%;
+    margin: 7px auto;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+#btn:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 110, 255);
+}
+#btn1{
+    border: 3px solid blueviolet;
+    background-color: rgb(64, 133, 224);
+    border-radius: 20px;
+    width: 40%;
+    margin: 0px auto;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#btn1:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 110, 255);
+}
+#box2 input{
+    border: 3px solid blueviolet;
+    border-radius: 20px;
+    width: 60%;
+    margin: 7px auto;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#box2 input:hover{
+    border: 3px solid rgb(43, 226, 217);
+    background-color: black;
+    color: white;
+}
+#welcome{
+    padding: 0 20px;
+    font-family: 'Bree Serif', serif;
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+    margin-top: 0px;
+    /* border: 2px solid greenyellow; */
+    padding: 0px;
+    height: 45px;
+    font-family: 'Bree Serif', serif;
+}
+.navbar img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+li{
+   list-style: none; 
+   border: 3px solid blueviolet;
+   background-color: rgb(70, 66, 66);
+   width: 15%;
+   text-align: center;
+   padding: 5px;
+   border-radius: 15px;
+   font-size: 20px;
+   font-family: 'Bree Serif', serif;
+}
+li a{
+    color: white;
+   text-decoration: none;
+}
+li:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 3px solid rgb(43, 226, 217);
+}
+#back{
+    position: relative;
+    left: 170px;
+}
