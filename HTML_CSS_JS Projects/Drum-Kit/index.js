@@ -24,27 +24,27 @@ function makesnd(key)
 {
   switch(key)
   {
-    case "w": var a=new Audio('snd/crash.mp3');
+    case "1": var a=new Audio('snd/crash.mp3');
               a.play();
               break;
 
 
-    case "a": var a=new Audio('snd/kick-bass.mp3');
+    case "2": var a=new Audio('snd/kick-bass.mp3');
               a.play();
               break;
-    case "s": var a=new Audio('snd/snare.mp3');
+    case "3": var a=new Audio('snd/snare.mp3');
             a.play();
             break;
-    case "d": var a=new Audio('snd/tom-1.mp3');
+    case "4": var a=new Audio('snd/tom-1.mp3');
               a.play();
               break;
-    case "j": var a=new Audio('snd/tom-2.mp3');
+    case "5": var a=new Audio('snd/tom-2.mp3');
               a.play();
               break;
-    case "k": var a=new Audio('snd/tom-3.mp3');
+    case "6": var a=new Audio('snd/tom-3.mp3');
               a.play();
               break;
-    case "l": var a=new Audio('snd/tom-4.mp3');
+    case "7": var a=new Audio('snd/tom-4.mp3');
               a.play();
               break;
             }
