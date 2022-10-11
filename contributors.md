@@ -24,4 +24,5 @@
 - [Ritish Bhardwaj](https://github.com/ritishbhardwaj)
 - [Kartik Mehta](https://github.com/kartikmehta8)
 - [Arnav](https://github.com/arnav-si)
+- [Vivek Battan](https://github.com/vivekbattan)
 
