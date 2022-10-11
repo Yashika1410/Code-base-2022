@@ -23,6 +23,7 @@
 - [Rahul Kumar](https://github.com/iamrahul8)
 - [Ritish Bhardwaj](https://github.com/ritishbhardwaj)
 - [Kartik Mehta](https://github.com/kartikmehta8)
+- [Mehul Kumar](https://github.com/WonderSTK)
 - [Rishabh Verma](https://github.com/rishabhverma1106)
 - [Arnav](https://github.com/arnav-si)
 - [Vivek Battan](https://github.com/vivekbattan)
