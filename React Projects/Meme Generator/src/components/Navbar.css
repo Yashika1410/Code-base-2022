@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    border-bottom: 2px solid #A818DA;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px
+    ;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(255, 254, 254);
+  }
+
+.navbar-meme{
+    width: 100px;
+}
