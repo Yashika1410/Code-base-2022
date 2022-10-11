@@ -1,0 +1,257 @@
+/* CSS reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS variables */
+
+:root {
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image  */
+
+#logo {
+    margin: 10px 15px;
+}
+
+#logo img {
+    height: 56px;
+    margin: 5px 5px;
+}
+
+/* Navigation Bar:  List styling */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 28px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 3px 18px;
+}
+
+/* Home Section  */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(../bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#home h1 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Services Section  */
+
+#services {
+    margin: 34;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid red;
+    padding: 2px;
+    margin: 3px 3.5px;
+    border-radius: 25px;
+    background-color: rgb(202, 202, 202);
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+/* Client Section  */
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#client-section {
+    height: 377px;
+    margin-bottom: 20px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients img {
+    height: 150px;
+}
+
+.clients-items {
+    padding: 20px;
+}
+
+/* COntact Section  */
+
+#contact {
+    position: relative;
+    /* padding: 5px; */
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url('../contact-us.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+#contact-box form #submit{
+    width: 40%;
+    margin: 15px 200px;
+    background-color: rgb(69, 152, 248);
+    font-family: 'Bree Serif', serif;
+}
+#contact-box form #submit:hover{
+   background-color: rgb(0, 115, 247);
+   color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility Classes  */
+
+.h-primary {
+    font-size: 3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.h-secondary {
+    font-size: 1.5rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
+    padding: 6px 20px;
+    margin: 20px;
+    border: 3px solid rgb(1, 217, 255);
+    background-color: rgb(220, 172, 235);
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 3px solid rgb(21, 99, 243);
+    background-color: rgb(157, 245, 237);
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
