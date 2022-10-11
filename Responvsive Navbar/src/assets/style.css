@@ -1,0 +1,203 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-text {
+    font-family: monospace;
+    line-height: 300%;
+    color: white;
+}
+
+.main-text>.hi-text {
+    font-size: 1.6em;
+}
+
+.main-text>.name-text {
+    font-size: 2.2em;
+}
+
+.main-text>.dev-text {
+    font-size: 2em;
+}
+
+.about-head {
+    color: white;
+    font-size: 3em !important;
+    margin-top: 3.5em;
+    margin-left: 1.4em;
+}
+
+.about-text {
+    color: white;
+    margin-left: 3em;
+    font-size: 1.4em;
+    width: 75%;
+    line-height: 1.8em;
+}
+
+.tech-stack-list {
+    transition: transform .2s ease;
+}
+
+.tech-stack-list:hover {
+    transform: scale(.8);
+}
+
+.svgIcon {
+    animation: shake 4s linear infinite;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-1deg);
+    }
+
+    20% {
+        transform: rotate(0deg);
+    }
+
+    30% {
+        transform: rotate(1deg);
+    }
+
+    40% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-1deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(1deg);
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+.card {
+    margin: 1em;
+    justify-content: space-evenly;
+}
+
+.project-logos {
+    transition: width 2s linear;
+}
+
+.project-logos:hover {
+    transform: scale(1.3);
+}
+
+.about-tech-stacks{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile-nav-link{
+    text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+    .home-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-body .box {
+        width: 100vw;
+    }
+
+    .about-one {
+        width: 100vw !important;
+        align-items: center !important;
+    }
+
+    .about-head {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-text {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .about-one-img {
+        display: none !important;
+    }
+
+    .about-btn-get-in-touch {
+        margin-left: 0 !important;
+    }
+
+    .about-tech-stacks-text {
+        width: 100vw !important;
+    }
+
+    .about-tech-stacks-img {
+        display: none !important;
+    }
+
+    .tech-stacks>ul {
+        justify-content: center !important;
+    }
+
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-me-text {
+        width: 100vw !important;
+        align-items: center !important;
+    }
+
+    .contact-me-img {
+        width: 100vw !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .main-text {
+        width: 97vw !important;
+        text-align: center;
+    }
+
+    .css-1lvtzne {
+        margin-right: auto;
+    }
+
+    .tech-stacks>ul {
+        justify-content: space-evenly !important;
+    }
+
+    .tech-stacks>ul>li {
+        width: 90% !important;
+    }
+}
